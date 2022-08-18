@@ -1,0 +1,177 @@
+body{
+    background-color: #191765;
+}
+.topnav{
+    position: relative;
+    width: 1440px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    display: inline;
+    color: white;
+    /* font-family: roboto; */
+    
+}
+.Debby{
+    margin-left: 0px;
+    float: left;
+    padding-left: 5%;
+    font-family: roboto;
+    font-style: medium;
+    font-size: 13px;
+    line-height: 20px;
+    line-height: 99%;
+    text-align: center ;
+    vertical-align: center;
+    
+    
+}
+.other{
+    /* padding: 20px; */
+    margin-right: 0px;
+    float: right;
+    padding-right: 5%;
+    display: flex;
+    font-family: roboto;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    line-height: 99%;
+    text-align: center ;
+    vertical-align: center;
+    /* overflow-x: 12px;
+    overflow-y: 10px;
+    font-weight: 500; */
+    
+}
+
+
+
+
+
+.header{
+    position: absolute;
+    width: 1200px;
+    height: 435px;
+    left: 69px;
+    top: 123px;
+    font-size: larger;
+    width: 756px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 95px;
+    text-align: center;
+    padding-bottom: 80%;
+    padding-left: 20%;
+
+    
+}
+.h2{
+    color: #9391FF;
+}
+.h3{
+    color: #DFE1E6;
+}
+
+#Portifolio{
+    font-family: roboto;
+    font-size: 15px;
+    font-style: medium;
+    line-height: 20px;
+    line-height: 114%;
+    align-self: center;
+    vertical-align: center;
+    overflow-x: 12px;
+    overflow-y: 10px;
+    font-weight: 41px;
+    width: 59px;
+    margin-right: 0px;
+    float: right;
+    padding-right: 5%;
+    display: flex;
+}
+#About{
+    font-family: roboto;
+    font-size: 15px;
+    font-style: medium;
+    line-height: 20px;
+    line-height: 114%;
+    align-self: center;
+    vertical-align: center;
+    overflow-x: 12px;
+    overflow-y: 10px;
+    font-weight: 41px;
+    width: 41px;
+    margin-right: 0px;
+    float: right;
+    padding-right: 5%;
+    display: flex;
+    
+}
+#Contact{
+    font-family: roboto;
+    font-size: 15px;
+    font-style: medium;
+    line-height: 20px;
+    line-height: 114%;
+    align-self: center;
+    vertical-align: center;
+    overflow-x: 12px;
+    overflow-y: 10px;
+    font-weight: 41px;
+    width: 53px;
+    margin-right: 0px;
+    float: right;
+    padding-right: 5%;
+    display: flex;
+    
+}
+
+
+ .text{
+    width: 447px;
+    height: 155px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    padding-right: 210px;
+    left: 69px;
+    padding-left: 37%;
+    padding-bottom: 80%;
+    color: #B3BAC5;
+
+} 
+.fa {
+    padding: 20px;
+    font-size: 4px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 80%;
+    height: 1px;
+    color: white;
+    cursor: pointer;
+  }
+.cta{
+    padding-top: 30%;
+    background-color: #191765;
+    border: #191765;
+    cursor: pointer;
+    
+    
+    
+}
+
+    
+
+
+    
+
