@@ -1,13 +1,38 @@
 body{
     background-color: #191765;
-    /* background-image: url(images/bckground.png); */
+    background-image: url(images/bckground.png);
     
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+} */
+.a{
+  text-decoration: none;
+    color: white
+}
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48;
+  color: #7d73fc;
+  font-size: 2.5em;
+}
+head {
+  display: grid;
+  grid-template-columns: 100%;
 }
 .topnav{
     /* width: 105px;
     height: 36px; */
     margin-top: 30px;
-    display: grid;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .first-circle{
     display: block;
@@ -70,6 +95,8 @@ body{
     left: 12px;
     letter-spacing: 3%;
     font-weight: 500;
+    text-decoration: none;
+    color: white
 }
     
 
@@ -106,6 +133,10 @@ body{
     color: #edecff;
     
 }
+.hr {
+  max-width: 100%;
+  width: 580px;
+}
 .table {
     width: 64vh;
     color: #646369;
@@ -115,14 +146,14 @@ body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.25em;
+    font-size: 1.78em;
     line-height: 1.75em;
     text-align: center;
     justify-content: center;
     color: rgb(200, 200, 212);
     margin-bottom: 5.38vh;
     margin-top: 7.82vh;
-    padding-right: 50px;
+    padding-left: 70px;
   }
   .right {
     display: flex;
@@ -135,13 +166,33 @@ body{
     margin-left: 15.04vh;
     margin-top: 6.26vh;
   }
-  .left {
+  /* .left {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0;
-    gap: 4.7vh;
-    width: 67.93vh;
+    flex-direction: column;
+    padding: 0 1.42vh;
+    gap: 0.95vh;
+    color: #f5f5ff;
+    width: 22.04vh;
+    height: 25.53vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.94em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: left;
+  } */
+  .left1{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.42vh;
+    gap: 0.95vh;
+    color: #f5f5ff;
+    width: 22.04vh;
+    height: 25.53vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.94em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: left;
   }
   .proLang {
     display: flex;
@@ -173,17 +224,11 @@ body{
   }
   .left {
     display: flex;
-    flex-direction: column;
-    padding: 30PX;
-    gap: 0.95vh;
-    color: #f5f5ff;
-    width: 22.04vh;
-    height: 25.53vh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.94em;
-    font-weight: 400;
-    line-height: 1.5em;
-    text-align: left;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 4.7vh;
+    width: 67.93vh;
   }
   .F1{
     display: flex;
@@ -203,6 +248,7 @@ body{
   width: 13.51vh;
   height: 4.69vh;
   order: 2;
+ 
 }
 .frameworks {
     display: flex;
@@ -212,14 +258,17 @@ body{
     width: 30.95vh;
     height: 42.5vh;
     order: 1;
-    padding: 0px 0px 0px 200px;
+    padding: 0px 0px 20px 200px;
+    /* margin-bottom: 60px; */
+    
+    
     
   }
   .titlef {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1.05vh 1.59vh;
+    padding: 2.05vh 2.59vh;
     gap: 1.59vh;
     width: 30.95vh;
     height: 6vh;
@@ -230,6 +279,8 @@ body{
     letter-spacing: 0.03em;
     color: rgb(148, 144, 255);
     text-align: left;
+    /* margin-top: 40px; */
+    
   }
   .F29 {
     display: flex;
@@ -284,7 +335,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 40px;
+    padding: 0px;
     gap: 3.17vh;
     width: 24.2vh;
     height: 44.9vh;
@@ -398,6 +449,7 @@ body{
     order: 0;
     flex-grow: 0;
   }
+ 
     
    
 
